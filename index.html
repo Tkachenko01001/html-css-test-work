@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <nav class="page-header__navigation">
+                <ul class="list-nav">
+                    <li class="list-nav__line">
+                        <a href="#" class="list-nav__link">
+                            <svg width="24" height="24">
+                                <use href="./images/svg-sprite/symbol-defs.svg#icon-home-line"></use>
+                            </svg>
+                            Головна
+                        </a>
+                    </li>
+                    <li class="list-nav__line">
+                        <a href="#" class="list-nav__link">
+                            <svg width="24" height="24">
+                                <use href="./images/svg-sprite/symbol-defs.svg#icon-bar-chart-square"></use>
+                            </svg>
+                            Сторінка1
+                        </a>
+                    </li>
+                    <li class="list-nav__line">
+                        <a href="#" class="list-nav__link">
+                            <svg width="24" height="24">
+                                <use href="./images/svg-sprite/symbol-defs.svg#icon-layers-three"></use>
+                            </svg>
+                            Сторінка2
+                        </a>
+                    </li>
+                    <li class="list-nav__line">
+                        <a href="#" class="list-nav__link">
+                            <svg width="24" height="24">
+                                <use href="./images/svg-sprite/symbol-defs.svg#icon-check-done"></use>
+                            </svg>
+                            Сторінка3
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="#" class="settings-link">
+                <svg width="24" height="24">
+                    <use href="./images/svg-sprite/symbol-defs.svg#icon-settings"></use>
+                </svg>
+                Налаштуввання
+            </a>
+        </header>
+        <main class="main-content">
+            <h1 class="main-content__header">
+                Start
+            </h1>
+            <section class="main-container">
+                <ul class="main-list">
+                    <li class="main-list__item">
+                        <div class="main-list__item-ball"></div>
+                        стан1
+                        <span class="dotted-line"></span>
+                    </li>
+                    <li class="main-list__item">
+                        <div class="main-list__item-ball"></div>
+                        стан2
+                        <span class="dotted-line"></span>
+                    </li>
+                    <li class="main-list__item">
+                        <div class="main-list__item-ball"></div>
+                        стан3
+                        <span class="dotted-line"></span>
+                    </li>
+                    <li class="main-list__item">
+                        <div class="main-list__item-ball"></div>
+                        стан4
+                    </li>
+                    <li class="main-list__item">
+                        <div class="main-list__item-ball"></div>
+                        стан5
+                    </li>
+                </ul>
+                <div class="info">
+                    <div class="info__num-block">
+                        <h3 class="info__num-block-header">
+                            Information
+                        </h3>
+                        <div class="info__num-block-wrapper">
+                            <p class="info__num-block-paragraph">
+                                Info Number:
+                            </p>
+                            <p class="info__num-block-paragraph">
+                                903049
+                            </p>
+                        </div>
+                        <div class="info__num-block-wrapper">
+                            <p class="info__num-block-paragraph">
+                                Pick up Place:
+                            </p>
+                            <p class="info__num-block-paragraph">
+                                Sweden
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info__time-block">
+                        <div class="info__time-block-wrapper">
+                            <h2 class="info__time-block-header">
+                                We are here
+                            </h2>
+                            <p class="info__time-block-paragraph">Long time to go</p>
+                        </div>
+                        <img src="./images/Truck.png" alt="truck">
+                    </div>
+                </div>
+
+                <div class="form-wrapper">
+                    <form class="form-container">
+                        <h3 class="form-header">Перезамовте багаж</h3>
+                        <div class="custom-select-wrapper">
+                            <div class="custom-select">
+                                <label class="custom-select__label" for="select1">Дропдаун</label>
+                                <div class="custom-select__block">
+                                    <select name="select1" id="select1">
+                                        <option value="option1">Select option</option>
+                                        <option value="option2">Select option</option>
+                                        <option value="option3">Select option</option>
+                                    </select>
+                                    <svg width="20" height="20" class="icon-chevron">
+                                        <use href="./images/svg-sprite/symbol-defs.svg#icon-chevron-down"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="custom-select">
+                                <label class="custom-select__label" for="select2">Дропдаун</label>
+                                <div class="custom-select__block2">
+                                    <select name="select2" id="select2">
+                                        <option value="option1">Select option</option>
+                                        <option value="option2">Select option</option>
+                                        <option value="option3">Select option</option>
+                                    </select>
+                                    <svg width="20" height="20" class="icon-chevron2">
+                                        <use href="./images/svg-sprite/symbol-defs.svg#icon-chevron-down"></use>
+                                    </svg>
+                                </div>
+                            </div>
+                            <button type="submit" class="form-button">Done</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
